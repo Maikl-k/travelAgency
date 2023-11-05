@@ -1,0 +1,458 @@
+body{
+	font-family: 'Open Sans',cursive;
+	margin: 0;
+	color: white;
+}
+
+.main-section{
+	background-image: url("../images/sea.jpeg");
+	background-size: cover;
+	
+	height: 700px;
+}
+
+.logo{
+	display: flex;
+	margin-left: 100px;
+	padding-top: 10px;
+}
+
+h1{
+	margin-top: 40px;
+}
+
+.logo-image{
+	width: 150px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid whites;
+}
+
+.header-buttons{
+	padding-top: 60px;
+	padding-right: 50px;
+	color:white;
+}
+a{
+	color: white;
+}
+
+
+.decr-in-center-div{
+	font-size: 17px;
+}
+
+.mainButton{
+	font-size: 40px;
+	color:rgb(247, 193, 193);
+}
+
+.center-div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+}
+
+.second-section{
+	
+	display: flex;
+	justify-content: space-around;
+	height: 150px;
+}
+
+.second-section1{
+	display: flex;
+	padding-right: 120px;
+	padding-left: 120px;
+	border: 1px solid black;
+	align-items:center ;
+	background: rgb(12, 12, 216);
+}
+
+.second-section2{
+	border: 1px solid black;
+	padding-right: 60px;
+	padding-left: 60px;
+	background: rgb(85, 85, 185);
+}
+
+.second-section3{
+	border: 1px solid black;
+	padding-right: 60px;
+	padding-left: 60px;
+	background: rgb(94, 94, 198);
+}
+
+
+.second-section4{
+	border: 1px solid black;
+	padding-right: 60px;
+	padding-left: 60px;
+	background: rgb(108, 108, 240);
+}
+
+
+.the-3-section{
+	height: 800px;
+	padding-top: 40px;
+}
+
+.header-of-3-section{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.best-p{
+	color: blue;
+}
+
+.guaranted{
+	color: rgb(180, 16, 16);
+}
+.discription-of-header-of-3-section{
+	color: black;
+	font-size: 20px;
+}
+
+.center-of-3-section{
+	color: rgb(8, 1, 1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+	font-size: 19px;
+}
+
+#text-box{
+	height: 200px;
+	width: 800px;
+	margin-bottom: 20px;
+}
+
+.buttom-of-3-section{
+	color: black;
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bo3sd1{
+	margin: 4px;
+}
+
+.the-4-section{
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.the-4-section1{
+	padding-left: 20px;
+	padding-top: 10px;
+	
+	background-image: url(../images/paris.jpg);
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+}
+
+.the-4-section2{
+	height: 400px;
+	width: 400px;
+	background-image: url(../images/kyiv.jpeg);
+	background-size: cover;
+	padding-left: 20px;
+	padding-top: 10px;
+
+	text-shadow: 0px 0px 1px black;
+}
+
+.the-4-section3{
+	height: 400px;
+	width: 400px;
+	background-image: url(../images/miami.jpg);
+	padding-left: 20px;
+	padding-top: 10px;
+	background-size: cover;
+	
+	
+}
+
+
+.buttom-of-4-section{
+	color: black;
+	padding-left: 100px;
+	padding-bottom: 200px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.the-5-section{
+	height: 700px;
+}
+
+.header-of-5-section{
+	margin-top: -70px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+}
+
+.center-of-5-section{
+	display: flex;
+}
+
+.content-1{
+	background-image: url(../images/turkey.jpg);
+	background-size: cover;
+	height: 350px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	text-align: end;
+	color: black;
+	padding-right: 20px;
+	border-right: 1px solid white;
+
+}
+
+.content-2{
+	background-image: url(../images/egypt.jpg);
+	height: 350px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	text-align: end;
+	
+	padding-right: 20px;
+	border-right: 1px solid white;
+}
+
+.content-3{
+	background-image: url(../images/bulgaria.jpg);
+	height: 350px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	text-align: end;
+	color: white;
+	padding-right: 20px;
+	background-size: cover;
+	border-right: 1px solid white;
+
+}
+
+.content-4{
+	width: 350px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	text-align: end;
+	background-image: url(../images/summer_girl_at_the_beach.jpg);
+	background-size: cover;
+	padding-right: 30px;
+}
+
+.the-6-section{
+	height: 500px;
+	color: black;
+	margin: -60px 40px 0 40px;
+}
+
+
+.header-of-6-section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.center-of-6-section{
+	background-image: url(../images/keyboard-on-a-table.jpg);
+	height: 300px;
+	background-size: cover;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	color: black;
+}
+
+
+.descr-of-center-of-6-section{
+	margin-top: -20px;
+}
+
+#text-box1{
+	background: transparent;
+	margin-right: 50px;
+	
+}
+
+#text-box2{
+	background: transparent;
+	
+	
+}
+
+.text-areas-of-center-of-6-section{
+	display: flex;
+	color: black;
+	
+}
+
+.send-button{
+	margin-top: 20px;
+	
+}
+
+#send-btn:hover{
+	background: red;
+}
+
+.the-7-section{
+	height: 1000px;
+	color: black;
+}
+
+
+.header-descr-of-7-section{
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.sub-section1-of-section-7{
+	color: aliceblue;
+	display: flex;
+	justify-content: space-around;
+}
+
+.hotels-turkey{
+	width: 450px;
+	height: 450px;
+	background-image: url(../images/turkey-beach.jpg);
+	background-size: cover;
+	display: flex;
+	color: blue;
+	justify-content: center;
+	
+}
+
+.hotels-spain{
+	width: 450px;
+	height: 450px;
+	background-image: url(../images/spain-beach.jpg);
+	background-size: cover;
+	display: flex;
+	color: blue;
+	justify-content: center;
+	align-items: start;
+	
+}
+
+.hotels-thailand{
+	width: 450px;
+	height: 450px;
+	background-image: url(../images/thailand-beach.jpg);
+	background-size: cover;
+	display: flex;
+	color: blue;
+	justify-content: center;
+	
+	
+}
+
+
+.sub-section2-of-section-7{
+	margin-top: 30px;
+	color: aliceblue;
+	display: flex;
+	justify-content: space-around;
+}
+
+.hotels-UAE{
+	width: 450px;
+	height: 450px;
+	background-size: cover;
+	background-image: url(../images/dubai-beach.jpg);
+	display: flex;
+	color: blue;
+	justify-content: center;
+
+}
+
+.hotels-egypt{
+	background-image: url(../images/egypt-beach.jpg);
+	width: 450px;
+	height: 450px;
+	background-size: cover;
+	display: flex;
+	color: blue;
+	justify-content: center;
+
+}
+
+.hotels-sri-lanka{
+	background-image: url(../images/sri-lanka-beach.jpg);
+	background-size: cover;
+	width: 450px;
+	height: 450px;
+	display: flex;
+	color: blue;
+	justify-content: center;
+
+}
+
+.the-8-section{
+	margin-top: 40px;
+	height: 600px;
+}
+
+.customer-feedback{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 50px 0 50px;
+	height: 300px;
+	background: rgb(62, 62, 62);
+}
+
+.name-of-customer{
+	margin: 20 0 0 0;
+}
+
+.post-in-work{
+	margin: 0;
+}
+
+.center-of-8-section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.button-of-a-main-page{
+	height: 300px;
+	background: rgb(62, 62, 62);
+	display: flex;
+	justify-content: space-around;
+}
+
+.button-of-a-main-page-part1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.logo-payment{
+	width: 300px;
+	height: auto;
+}
