@@ -57,3 +57,52 @@ a{
     padding-bottom: 10px;
     border-bottom: 1px solid black;
 }
+
+.the-2-section{
+    height: 450px;
+    display: flex;
+}
+
+.office-workers1{
+    width: 380px;
+    height: 400px;
+    background-image: url(../images/office-workers1.webp);
+    background-size: cover;
+    border-right: 2px solid white;
+}
+
+.office-worker1{
+    width: 380px;
+    height: 400px;
+    background-size: cover;
+    background-image: url(../images/office-worker1.webp);
+    border-right: 2px solid white;
+}
+
+.office-workers2{
+    background-image: url(../images/office-workers2.jpg);
+    width: 380px;
+    height: 400px;
+    background-size: cover;
+    border-right: 2px solid white;
+    
+}
+
+.office-workers3{
+    background-image: url(../images/office-workers3.jpg);
+    width: 380px;
+    height: 400px;
+    background-size: cover;
+}
+
+.descr-of-2-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.descr-of-2-section01{
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
