@@ -108,7 +108,7 @@ a{
 }
 
 .the-3-section{
-    height: 700px;
+    height: 610px;
     display: flex;
 }
 
@@ -134,4 +134,24 @@ a{
     flex-direction: column;
     padding: 0 20px 0 20px;
     justify-content: center;
+}
+
+.the-4-section{
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-image-of-4-section{
+    background-image: url(../images/nature.jpg);
+    background-size: cover;
+    width: 700px;
+    height: 600px;
+}
+
+.main-descr-of-4-section{
+    width: 600px;
+    padding-left:50px;
+    align-items: center;
+    display: flex;
 }
