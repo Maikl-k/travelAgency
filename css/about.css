@@ -104,5 +104,34 @@ a{
     margin: 50px 0 0 0;
     display: flex;
     justify-content: space-around;
-    height: 300px;
+    height: 250px;
+}
+
+.the-3-section{
+    height: 700px;
+    display: flex;
+}
+
+
+.main-image-of-3-section{
+    background-image: url(../images/conference-room.jpg);
+    background-size: cover;
+    width: 700px;
+    height: 600px;
+}
+
+.five-stars{
+    width: 300px;
+    height: auto;
+    margin-top: -50px;
+}
+
+.sub-main-descr-of-3-section{
+    margin: 0;
+}
+.main-descr-of-3-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+    justify-content: center;
 }
