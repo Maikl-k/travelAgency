@@ -1,0 +1,59 @@
+body{
+	font-family: 'Open Sans',cursive;
+	margin: 0;
+}
+
+.logo-image{
+	width: 150px;
+}
+
+.logo{
+	display: flex;
+	margin-left: 100px;
+	padding-top: 10px;
+    
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid whites;
+    
+}
+
+.header-buttons{
+	padding-top: 60px;
+	padding-right: 50px;
+}
+.the-1-section{
+    height: 750px;
+}
+
+.the-1-section1{
+    height: 500px;
+    background-size: cover;
+    background-image: url(../images/business-office.jpg);
+}
+
+a{
+    color: white;
+}
+
+.center-of-1-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: blue;
+}
+
+
+.button-of-1-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descr-of-btn-of-1-section{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
