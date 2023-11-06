@@ -155,3 +155,23 @@ a{
     align-items: center;
     display: flex;
 }
+
+.the-5-section{
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-image-of-5-section{
+    background-image: url(../images/office-home.jpg);
+    background-size: cover;
+    width: 700px;
+    height: 600px;
+
+}
+
+.main-descr-of-5-section{
+    width: 600px;
+    align-items: center;
+    display: flex;
+}
